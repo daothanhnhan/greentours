@@ -1,0 +1,53 @@
+.gb-other-home-video{
+  padding: 50px 0;
+  .gb-other-home-video-title{
+    h2{
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  }
+  h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .gb-other-thuvien-ixl{
+    .uni-major-right-item{
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      img{
+        width: 100%;
+        height: 130px;
+      }
+      .uni-major-caption{
+        position: absolute;
+        i{
+          font-family: FontAwesome;
+          font-size: 30px;
+          line-height: 1;
+          text-align: center;
+          color: #ffffff;
+          opacity: 0;
+          -webkit-transition: all 0.7s;
+          -o-transition: all 0.7s;
+          transition: all 0.7s;
+        }
+      }
+    }
+  }
+}

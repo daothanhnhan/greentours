@@ -1,0 +1,67 @@
+.is-sticky{
+  .sticky-menu{
+    @media screen and (max-width: 991px) {
+      position: relative !important;
+    }
+  }
+}
+
+.gb-header-denmoc{
+  .gb-header-top_denmoc{
+    background: $color-main-denmoc;
+    .gb-header-top_denmoc-left{
+      ul{
+        li{
+          display: inline-block;
+          font-size: 14px;
+          color: #fff;
+          line-height: 22px;
+          margin-right: 10px;
+          padding:  8px 0;
+          i{
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .gb-header-top_denmoc-right{
+      text-align: right;
+      ul{
+        li{
+          display:  inline-block;
+          .gb-header-top_denmoc-taikhoan{
+            padding: 9px 15px;
+          }
+          a{
+            display:  block;
+            font-size: 14px;
+            color: #fff;
+            line-height: 22px;
+            margin-right: 10px;
+            padding:  8px 0;
+          }
+        }
+      }
+    }
+  }
+  .gb-header-bottom_denmoc{
+    background: #f1f1f1;
+  }
+  .gb-header-bottom_denmoc-logo{
+    padding: 5px 0;
+    img{
+      width: 30%;
+    }
+  }
+  .gb-header-bottom_denmoc-name{
+    h1{
+      font-size: 34px;
+      text-align: center;
+      padding: 9px 0;
+      font-weight: bold;
+      color: #0e80c0;
+      margin-top: 10px;
+      text-shadow: 0 1px 0 rgb(128,141,147), -1px 0 0 rgb(205,210,213), -1px 2px 0 rgb(128,141,147), -2px 1px 0 rgb(205,210,213), -2px 3px 0 rgb(128,141,147), -3px 2px 0 rgb(205,210,213), -3px 4px 0 rgb(128,141,147), -4px 3px 0 rgb(205,210,213), -4px 5px 0 rgb(128,141,147), -5px 4px 0 rgb(205,210,213), -5px 6px 0 rgb(128,141,147), -6px 5px 0 rgb(205,210,213), -6px 7px 0 rgb(128,141,147), -7px 6px 0 rgb(205,210,213), -7px 8px 0 rgb(128,141,147), -8px 7px 0 rgb(205,210,213);
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.gb-datchuyendi-hasonhaivan{
+  .gb-datchuyendi-hasonhaivan-block{
+    background: $color-main-denmoc url("../images/cartoon-doodle2.png") !important;
+    padding: 20px;
+    @media screen and (max-width: 991px) {
+      margin: 40px 0;
+    }
+  }
+  form{
+    width: 500px;
+    @media screen and (max-width: 991px) {
+      width: 100%;
+    }
+    .box_form-hasonhaivan{
+      position: relative;
+      .icon_a{
+        background: url("../images/icons/icon_a.png") no-repeat;
+        width: 19px;
+        height: 26px;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+      }
+    }
+    .box_arrow-hasonhaivan{
+      height: 21px;
+      position: relative;
+      .change_ben_xe{
+        background: url("../images/icons/icon_arrow_2.png") no-repeat;
+        width: 19px;
+        height: 26px;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: -3px;
+      }
+    }
+    .box_to-hasonhaivan{
+      position: relative;
+      .icon_b{
+        background: url("../images/icons/icon_b.png") no-repeat;
+        width: 19px;
+        height: 26px;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+      }
+    }
+  }
+  h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  label{
+    display:  block;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .btn_search-hasonhaivan{
+    display:  inline-block;
+    background: #000;
+    color: white;
+    font-size: 14px;
+    width: 200px;
+    text-transform: uppercase;
+  }
+}

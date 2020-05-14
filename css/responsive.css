@@ -1,0 +1,637 @@
+@media (min-width: 1200px) {
+
+    .info-visa-mobile {
+
+        display: none;
+
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .info-visa-mobile {
+
+        display: none;
+
+    }
+
+    .timkiemhome {
+        /*height: 390px;*/
+    }
+
+    .home-slide-text {
+        margin-top: 162px;
+    }
+
+    .item-golf .info div a.view-trip {
+        font-size: 11px;
+    }
+
+}
+
+
+
+@media (max-width: 992px) {
+
+    .info-visa-mobile {
+
+        display: none;
+
+    }
+
+    .carrier-list--panel {
+
+        display: none;
+
+    }
+    .gb-header-search_denmoc{
+        display: none;
+    }
+    .gb-header-denmoc .gb-header-bottom_denmoc-logo img {
+        width: 37%;
+        position: initial;
+        z-index: 1;
+        top: -44px;
+        max-height: 38px;
+    }
+
+    #block-peak-navigation-peak-anchor-side-menu {
+        display: none;
+    }
+
+    .table-price {
+        display: block;
+        overflow-x: scroll;
+    }
+
+    .img-footer1 {
+        display: none;
+    }
+
+    .img-footer2 {
+        display: block;
+    }
+
+    .timkiemhome {
+        /*height: 280px;*/
+    }
+
+    .home-slide-text .text-to {
+        /*display: none;*/
+        /*font-size: 20px;*/
+    }
+
+    .home-slide-text .text {
+        /*display: none;*/
+        width: 70%;
+    }
+
+    .home-slide-text {
+        margin-top: 228px;
+        margin-left: 10px;
+    }
+
+    .home-slide-text .welcome {
+        /*font-size: 20px;*/
+        font-size: 62px;
+    }
+
+    .timkiemhome .tim-kiem-home {
+        width: 73%;
+        margin-top: 62px;
+    }
+
+    .mobile-search-icon {
+        display: block;
+    }
+
+    .mobile-wishlist-icon {
+        display: block;
+    }
+
+    .mobile-phone-icon {
+        display: block;
+    }
+
+    .col6-none {
+        display: none;
+    }
+
+    .flightHomeSearchForm {
+        border-radius: 15px;
+        width: 100% !important;
+    }
+
+    .banner-text h1 {
+        /*font-size: 34px;*/
+    }
+
+    .banner-text p {
+        /*display: none;*/
+    }
+
+    .star-none {
+        display: none;
+    }
+
+    .info-bottom-destination table tr td {
+        display: block;
+        width: 100%;
+    }
+
+    .gb-header-denmoc .gb-header-bottom_denmoc {
+        height: 48px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    p {
+
+        font-size: 14px;
+
+    }
+
+
+
+    h2 {
+
+        color: #4c8c1a;
+
+        font-weight: 700;
+
+        font-size: 20px;
+
+        padding-top: 20px;
+
+    }
+
+
+
+    h3 {
+
+        color: #4c8c1a;
+
+        font-weight: 700;
+
+        font-size: 20px;
+
+        padding-top: 20px;
+
+    }
+
+
+
+    .info-visa {
+
+        display: none;
+
+    }
+
+
+
+    .info-visa-mobile {
+
+        display: flex;
+
+    }
+    .gb-header-denmoc .gb-header-bottom_denmoc-logo img {
+        width: 37%;
+        position: initial;
+        z-index: 1;
+        top: -44px;
+    }
+
+    .gb-header-search_denmoc{
+        display: none;
+    }
+
+    .timkiemhome {
+        /*background-image: url(/images/intrepid_Banner_1920x500_0.jpg);*/
+        /*background-image: url(/images/green/slide-home.PNG);*/
+        background-image: url(/images/green/banner/home.jpg);
+        /*padding: 10% 26%;*/
+        /*background-size: 100% 100%;*/
+
+        /*height: 190px;*/
+    }
+
+    .banner__heading {
+
+        color: black;
+
+        font-size: 20px;
+
+        text-shadow: 0 0 10px #f5f6f7;
+
+    }
+
+
+
+    .tin-tuc-1 {
+
+        text-align: center;
+
+        font-size: 24px;
+
+    }
+
+
+
+    .tin-tuc-3 {
+
+        /*font-size: 19px;*/
+
+        /*color: #728b28;*/
+
+    }
+
+
+
+    .thong-tin-ho-tro .pr-01 {
+
+        text-align: center;
+
+        padding: 1px 0px;
+
+        border-width: 0px;
+
+        border-style: solid;
+
+        width: 100%;
+
+        position: inherit;
+
+        margin-left: 0px;
+
+        margin-bottom: 16px;
+
+
+
+    }
+
+
+
+    .thong-tin-ho-tro .pr-01>p {
+
+        font-size: 22px;
+
+        font-weight: 550;
+
+    }
+
+
+
+    .gb-custommer-say_ldpvinhome {
+
+        padding-top: 6px;
+
+    }
+
+
+
+    .title3 {
+
+        /*font-size: 21px;*/
+
+    }
+
+
+
+    .trips-header__link {
+
+        font-size: 11px;
+
+    }
+
+
+
+    .trips-header__title {
+
+        /*color: #4c8c1a;*/
+
+        /*font-weight: 700;*/
+
+        /*font-size: 20px;*/
+
+    }
+
+
+
+    .video {
+
+        color: #4c8c1a;
+
+        font-weight: 700;
+
+        font-size: 20px;
+
+    }
+
+
+
+    .golfsv img {
+
+        padding: 0px 1px;
+
+    }
+
+
+
+    .golfsv p {
+
+        font-size: 13px;
+
+    }
+
+
+
+    .des_danhmuc {
+
+        position: inherit;
+
+        padding: 0px;
+
+    }
+
+
+
+    .table>thead:first-child>tr:first-child>th {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .table-departure__date h5 a {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .table-departure__date span {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .table-departure__price--discount span {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .table-departure__price--sale {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .table-departure__price--sale span {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .l-grid__row .l-grid__col {
+
+        padding: 9px 11px;
+
+    }
+
+
+
+    .icon-info {
+
+        padding: 0px 15px;
+
+    }
+
+
+
+    .icon-info img {
+
+        width: 56%;
+
+    }
+
+
+
+    .icon-info span {
+
+        padding-left: 0px;
+
+        white-space: pre-line;
+
+        font-size: 14px;
+
+    }
+
+
+
+    hr {
+
+        margin-top: 6px;
+
+    }
+
+
+
+    .panel-heading {
+
+        padding: 1px 15px;
+
+    }
+
+
+
+    .panel-title>a {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .panel-group .panel-heading a .accordion-expander {
+
+        padding-left: 0px;
+
+    }
+
+
+
+    .career-item {
+
+        padding: 0px 0;
+
+    }
+
+
+
+    .new-page h2 {
+
+        font-size: 28px;
+
+    }
+
+
+
+    .career-item .career-title a {
+
+        font-size: 20px;
+
+    }
+
+
+
+    .career-item .career-excerpt {
+
+        font-size: 14px;
+
+
+
+    }
+
+
+
+    .see-detail {
+
+        padding: 1px 4px;
+
+    }
+
+
+
+    .career-item .career-view a {
+
+        font-size: 12px;
+
+    }
+
+
+
+    .post-content h2 {
+
+        font-size: 20px;
+
+        margin: -4px 0;
+
+    }
+
+
+
+    .wpb_content_element p {
+
+        font-size: 14px;
+
+        margin-bottom: 7px;
+
+    }
+
+
+
+    .title p {
+
+        font-size: 14px;
+
+    }
+
+    .wpb_content_element h3 {
+
+        font-size: 20px;
+
+       margin-bottom: 0px;
+
+       line-height: 35px;
+
+    }
+
+    .wpb_content_element p .enquire-now{
+
+        font-size: 12px;
+
+        padding: 11px 4px;
+
+    }
+
+    .title h3 {
+
+        font-size: 20px;
+
+    }
+
+    .home-slide-text {
+        margin-top: 162px;
+    }
+
+    .text-step {
+        display: none;
+    }
+
+    .google-map-icon img {
+        width: 31px;
+    }
+
+    .banner-text h1 {
+        /*font-size: 20px !important;*/
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .width-tour {
+        /*width: 90%;*/
+    }
+
+    .vn-voa {
+        float: left;
+    }
+
+    .vn-evisa {
+        float: right;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .menu-sidebar-margin-right-main {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .dl-horizontal dd {
+        margin-left: 240px;
+    }
+}
+
+@media (min-width: 0) {
+    .dl-horizontal dt {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tailor .box-tailor span {
+        font-size: 10px;
+    }
+}

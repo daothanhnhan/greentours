@@ -1,0 +1,1 @@
+<?php include DIR_PRODUCT . "MS_PRODUCT_DENMOC_0007_4.php"; ?>

@@ -1,0 +1,62 @@
+.text-tailor-des {
+	color: #004a80;
+	text-align: center;
+}
+
+.info-tour .text {
+	background: #393846;
+	padding: 15px 32px 5px;
+	font-weight: bold;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	color: #fff;
+}
+.info-tour .tour-date {
+	background: #f4f4f4;
+	padding: 20px;
+}
+.info-tour .tour-total {
+	background: #393846;
+	color: #fff;
+	padding: 0 20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.info-tour .tour-total .usd {
+	font-weight: bold;
+}
+.info-tour .tour-total .usd span {
+	font-size: 16px;
+}
+.info-tour .tour-contact {
+	margin-top: 10px;
+}
+.info-tour .tour-contact .tour-contact-phone {
+	font-size: 26px;
+	font-weight: bold;
+}
+.info-tour .tour-date .tour-start, .info-tour .tour-date .tour-finish {
+	margin-left: 30px;
+}
+.info-tour .tour-date p span {
+	margin-left: 10px;
+}
+.info-tour .tour-date .no-day {
+	color: #004a80;
+}
+.info-tour .tour-date .no-day .see {
+	float: right;
+	cursor: pointer;
+}
+.info-tour .tour-total .text-trip-price {
+	margin: 0;
+}
+
+.info-tour .tour-date .icon {
+	width: 20px;
+	position: relative;
+	top: 5px;
+}
+.info-tour .tour-end {
+	margin-top: 30px;
+}

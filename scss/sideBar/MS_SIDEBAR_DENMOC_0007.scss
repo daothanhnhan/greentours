@@ -1,0 +1,60 @@
+.gb-locchekbox-sidebar-denmoc{
+  .widget-title-sidebar-denmoc{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 40px;
+    padding-left: 20px;
+    background: rgba(158, 158, 158, 0.145);
+    border-left: 5px solid #f79321;
+  }
+  ul{
+    li{
+      a{
+        display:  block;
+        position: relative;
+        line-height: 30px;
+        color: rgba(84,84,84,.8);
+        &:before{
+          content: " ";
+          width: 14px;
+          height: 14px;
+          border-style: solid;
+          border-width: 1px;
+          margin-right: 8px;
+          display: block;
+          float: left;
+          margin-top: 7px;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+        }
+        &:hover{
+          color: $color-main1-denmoc;
+          span{
+            border-color: $color-main1-denmoc;
+          }
+        }
+        span{
+          background: rgba(84,84,84,.05);
+          color: rgba(84,84,84,.8);
+          float: right;
+          font-size: .6875rem;
+          line-height: 1;
+          padding: 6px 10px 4px!important;
+          border-radius: 10px!important;
+          -webkit-border-radius: 10px!important;
+          -moz-border-radius: 10px!important;
+          text-align: center;
+          min-width: 10px;
+          margin-top: -1px;
+          border-width: 1px;
+          border-style: solid;
+        }
+      }
+    }
+  }
+}

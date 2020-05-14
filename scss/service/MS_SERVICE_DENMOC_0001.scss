@@ -1,0 +1,93 @@
+.gb-khaohoc-home-ixl{
+    padding: 50px 0;
+    background: #ffd600 url(http://kalvi.dttheme.com/kindergarden/wp-content/uploads/sites/11/2018/05/cartoon-doodle2.png?id=11599) !important;
+    .gb-khaohoc-home-ixl-title{
+        margin-bottom: 100px;
+        h2{
+            font-size: 24px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    .gb-khaohoc-home-ixl-body{
+        .col-sm-4{
+            &:nth-child(6){
+                .gb-khaohoc-home-ixl-item{
+                    margin-bottom: 0;
+                }
+            }
+            &:nth-child(4){
+                .gb-khaohoc-home-ixl-item{
+                    margin-bottom: 0;
+                }
+            }
+            &:nth-child(5){
+                .gb-khaohoc-home-ixl-item{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .gb-khaohoc-home-ixl-item{
+            margin-bottom: 100px;
+            background: #f1f1f1;
+            padding: 20px;
+            position: relative;
+            .gb-khaohoc-home-ixl-item-img{
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                width: 120px;
+                height: 120px;
+                background-color: #3f97da;
+                border: solid 1px #ffffff;
+                border-radius: 50%;
+                margin: auto;
+                img{
+                    margin:  0 auto;
+                }
+            }
+            .gb-khaohoc-home-ixl-item-text{
+                text-align: center;
+                margin-top: 50px;
+                h2{
+                    a{
+                        display: block;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                        color: #000;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: #7a7a7a;
+                }
+                .btn-xemthem-ixl{
+                    display:  inline-block;
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #fff;
+                    border: 1px solid #0166b3;
+                    padding: 7px 15px;
+                    border-radius: 20px;
+                    margin-top: 10px;
+                    background: #0166b3;
+                }
+            }
+        }
+    }
+}

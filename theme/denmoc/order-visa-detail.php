@@ -1,0 +1,1 @@
+<?php include_once DIR_OTHER . "MS_OTHER_GREENTOUR_0002.php"; ?>

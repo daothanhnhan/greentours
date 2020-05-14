@@ -1,0 +1,82 @@
+//FILTER PRODUCT
+.product-filter{
+  margin-bottom: 30px;
+  padding: 0 15px;
+  label{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #000;
+  }
+}
+
+.product-filter-itemperpage{
+  float: left;
+  @media screen and (max-width: 767px) {
+    float:  none;
+  }
+  form{
+    margin-bottom: 0;
+  }
+  select{
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: left;
+    color: #666;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #e0e0e0;
+    padding: 0 15px;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    option{
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: left;
+      color: #808080;
+    }
+  }
+}
+.product-filter-itemperpage-ordering{
+  float: right;
+  @media screen and (max-width: 767px) {
+    float:  none;
+    margin-top: 20px;
+  }
+  p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeaeae;
+    padding-top: 15px;
+  }
+  form{
+    margin-bottom: 0;
+  }
+  select{
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: left;
+    color: #666;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #e0e0e0;
+    padding: 0 15px;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    option{
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: left;
+      color: #808080;
+    }
+  }
+}

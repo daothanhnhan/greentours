@@ -1,0 +1,14 @@
+.prices_denmoc{
+  display:  block;
+  font-size: 14px;
+  line-height: 21px;
+  .prices_denmoc-news{
+    color: #c41230;
+    font-weight: 600;
+  }
+  .prices_denmoc-old{
+    color: $color-main-denmoc;
+    text-decoration: line-through;
+    font-weight: 300;
+  }
+}

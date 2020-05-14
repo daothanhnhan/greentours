@@ -1,0 +1,11 @@
+@font-face {
+	font-family: '9Slide03SOFIAPROSOFTLIGHT';
+	src: url('./9Slide03SOFIAPROSOFTLIGHT.eot');
+	src: local('9Slide03SOFIAPROSOFTLIGHT'), url('./9Slide03SOFIAPROSOFTLIGHT.woff') format('woff'), url('./9Slide03SOFIAPROSOFTLIGHT.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_79924">Text with this font applied</p> */
+.fontsforweb_fontid_79924 {
+	font-family: '9Slide03SOFIAPROSOFTLIGHT' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

@@ -1,0 +1,52 @@
+.footer-main-content_denmoc{
+  background: #0a1e4c;
+  padding: 50px 0;
+}
+.copyright-area_denmoc{
+  p{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 15px 0;
+    color: #7a7a7a;
+  }
+}
+.widget-title-footer-denmoc{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: $color-white;
+}
+
+/*footer-about-denmoc*/
+.footer-link-denmoc{
+  ul{
+    li{
+      a{
+        display:  block;
+        font-size: 14px;
+        color: $color-white;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+.listLinkFooter-denmoc{
+  h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  p{
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,1 @@
+<?php include DIR_NEWS."MS_NEWS_GREEN_0008.php";?>

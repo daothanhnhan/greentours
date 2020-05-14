@@ -1,0 +1,23 @@
+.gb-other-home-video .gb-other-home-video-title .gb-other-thuvien-ixl .uni-major-right-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .gb-other-home-video .gb-other-home-video-title .gb-other-thuvien-ixl .uni-major-right-item .uni-major-caption {
+    position: absolute; }
+    .gb-other-home-video .gb-other-home-video-title .gb-other-thuvien-ixl .uni-major-right-item .uni-major-caption i {
+      font-family: FontAwesome;
+      font-size: 30px;
+      line-height: 1;
+      text-align: center;
+      color: #ffffff;
+      opacity: 0;
+      -webkit-transition: all 0.7s;
+      -o-transition: all 0.7s;
+      transition: all 0.7s; }

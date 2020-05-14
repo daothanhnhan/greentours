@@ -1,0 +1,40 @@
+.gb-introvechungtoi_denmoc{
+  padding:50px 0;
+  background: #f1f1f1;
+  .gb-introvechungtoi_denmoc-left{
+    h2{
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    .gb-divider {
+      border-color: $color-main1-denmoc;
+      margin: 15px 0;
+    }
+    p{
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .gb-introvechungtoi_denmoc-doctiep{
+      background: $color-main1-denmoc;
+      display:  inline-block;
+      min-width: 100px;
+      padding: 10px 0;
+      color: $color-white;
+      text-align: center;
+      text-transform: uppercase;
+      border: 1px solid $color-main1-denmoc;
+      transition:  all 0.5s;
+      margin-top: 30px;
+      &:hover{
+        color: $color-main1-denmoc;
+        background:  transparent;
+      }
+    }
+  }
+  .gb-introvechungtoi_denmoc-right{
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+}

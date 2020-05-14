@@ -1,0 +1,36 @@
+.gb-top-header_denmoc-right-social{
+  text-align: right;
+  ul{
+    li{
+      display:  inline-block;
+      h4{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+      a{
+        display: block;
+        color: $color-white;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main1-denmoc;
+        }
+        i{
+          width: 45px;
+          height: 45px;
+          background: $color-white;
+          color: $color-main1-denmoc;
+          border-radius: 50%;
+          display:  inline-flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

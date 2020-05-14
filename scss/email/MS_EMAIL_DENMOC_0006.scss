@@ -1,0 +1,233 @@
+.gb-datve-labon{
+  padding: 50px 0;
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid $color-main-denmoc;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid $color-main-denmoc;
+    position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: $color-main-denmoc;
+    font-weight: bold
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+  }
+  .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px;
+    background: #f1f1f1;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+   label{
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 15px;
+  }
+  button{
+    text-align: center;
+    background: $color-main-denmoc;
+    border: 1px solid $color-main-denmoc;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 100%;
+    text-shadow: none;
+    margin-top: 20px;
+  }
+  .nav-tabs{
+    margin-bottom: 30px;
+  }
+  label{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 15px;
+  }
+ form{
+    padding: 40px 0;
+  }
+  button{
+    text-align: center;
+    background: $color-main-denmoc;
+    border: 1px solid $color-main-denmoc;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: none;
+    margin-top: 20px;
+  }
+  .form-group{
+    label{
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.gb-datve-labon-list{
+  padding-bottom: 60px;
+  #trip-oneway{
+    margin-bottom: 60px;
+    .chooseticket{
+      background-color: $color-main-denmoc;
+      border-bottom: 1px solid $color-main-denmoc;
+      padding: 10px 20px;
+      font: bold 14px/26px Arial;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .trip{
+      margin: 20px 0;
+      .start{
+        font-size: 18px;
+        color: $color-main-denmoc;
+        line-height: 27px;
+      }
+      .scb-to{
+        font-size: 14px;
+        color: #7a7a7a;
+        margin: 0 15px;
+      }
+      .end{
+        font-size: 18px;
+        color: $color-main-denmoc;
+        line-height: 27px;
+      }
+    }
+    .oneway-info{
+      font-size: 14px;
+    }
+    .list-trip{
+      margin-top: 20px;
+      tr{
+        th{
+          background: $color-main-denmoc;
+          color: #000;
+          text-align: center;
+          text-transform:  uppercase;
+          border:  1px solid #fff;
+        }
+      }
+      tr{
+        td{
+          color: #000;
+          text-align: center;
+          text-transform:  uppercase;
+          border:  1px solid #ccc;
+        }
+      }
+    }
+  }
+
+  #trip-round{
+    .chooseticket{
+      background-color: $color-main-denmoc;
+      border-bottom: 1px solid $color-main-denmoc;
+      padding: 10px 20px;
+      font: bold 14px/26px Arial;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .trip{
+      margin: 20px 0;
+      .start{
+        font-size: 18px;
+        color: $color-main-denmoc;
+        line-height: 27px;
+      }
+      .scb-to{
+        font-size: 14px;
+        color: #7a7a7a;
+        margin: 0 15px;
+      }
+      .end{
+        font-size: 18px;
+        color: $color-main-denmoc;
+        line-height: 27px;
+      }
+    }
+    .oneway-info{
+      font-size: 14px;
+    }
+    .list-trip{
+      margin-top: 20px;
+      tr{
+        th{
+          background: $color-main-denmoc;
+          color: #000;
+          text-align: center;
+          text-transform:  uppercase;
+          border:  1px solid #fff;
+        }
+      }
+      tr{
+        td{
+          color: #000;
+          text-align: center;
+          text-transform:  uppercase;
+          border:  1px solid #ccc;
+        }
+      }
+    }
+  }
+
+  .btn-tieptuc{
+    text-align: right;
+    .btn{
+      text-align: center;
+      background: $color-main-denmoc;
+      border: 1px solid $color-main-denmoc;
+      padding: 10px 20px;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 600;
+      text-shadow: none;
+      margin-top: 20px;
+    }
+  }
+}

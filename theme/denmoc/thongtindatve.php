@@ -1,0 +1,1 @@
+<?php include DIR_EMAIL."MS_EMAIL_DENMOC_0007.php";?>

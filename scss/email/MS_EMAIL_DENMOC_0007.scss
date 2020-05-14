@@ -1,0 +1,200 @@
+.gb-thongtingdatve{
+  padding: 50px 0;
+  .gb-thongtingdatve-left{
+    .select-seat{
+      .trip-info {
+        padding: 10px 0 10px 10px;
+        font-weight: 600;
+        color: $color-main-denmoc;
+        background: 0;
+        margin: 0 0 15px 0;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 7px;
+        line-height: 30px;
+        text-transform: uppercase;
+      }
+      ul {
+        width: 100%;
+        padding: 10px 0 20px 95px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+        list-style: none;
+        display: inline-block;
+        background: url(../images/icons/icon-bus.png) no-repeat 0px 10px;
+        li{
+          float: left;
+          width: 45%;
+          display: inline;
+          padding-bottom: 5px;
+          font-size: 14px;
+        }
+      }
+      p{
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+    }
+    .form-group{
+      label{
+        display:  block;
+        margin-bottom: 15px;
+        color: #666;
+        font-size: 14px;
+      }
+      .container-checkbox{
+        font-weight: 600;
+        color: $color-main-denmoc;
+        background: 0;
+        margin: 0 0 15px 0;
+        line-height: 30px;
+        text-transform: uppercase;
+      }
+    }
+    .transshipmentOneway{
+      margin-bottom: 15px;
+      label{
+        display:  block;
+        margin-bottom: 15px;
+        color: #666;
+        font-size: 14px;
+      }
+    }
+    .transshipmentReturn{
+      margin-bottom: 15px;
+      label{
+        display:  block;
+        margin-bottom: 15px;
+        color: #666;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .gb-thongtingdatve-right{
+    .customer-info{
+      background-color: #252b36;
+      padding: 10px;
+      .trip-info {
+        padding: 10px 0 7px 10px;
+        font-weight: 600;
+        color: $color-main-denmoc;
+        background: 0;
+        margin: 0 0 15px 0;
+        border-bottom: 1px solid #ddd;
+        line-height: 30px;
+      }
+      .total-title {
+        color: #ddd;
+        margin-bottom: 20px;
+        h4 {
+          color: $color-main-denmoc;
+          text-transform: uppercase;
+          font-size: 15px;
+          font-weight: 600;
+        }
+        .total-inside {
+          border-bottom: 1px solid #ddd;
+          padding-bottom: 7px;
+          line-height: 30px;
+        }
+        .seatlist, .price {
+          font-weight: 600;
+          color: $color-main-denmoc;
+          float: right;
+          font-size: 16px;
+        }
+        .seatlist {
+          width: inherit;
+          word-wrap: break-word;
+        }
+        .subtotal {
+          text-align: right;
+          color: #ddd;
+          font-size: 14px;
+          border-top: 1px solid #666;
+          padding-top: 10px;
+          #totalMoneyOneway{
+            display: block;
+            margin-top: 10px;
+            font-size: 18px;
+            color: $color-main-denmoc;
+          }
+          #totalMoneyReturn{
+            display: block;
+            margin-top: 10px;
+            font-size: 18px;
+            color: $color-main-denmoc;
+          }
+        }
+      }
+      #total{
+        text-align: right;
+        color: #ddd;
+        font-size: 14px;
+        border-top: 1px solid #666;
+        padding-top: 10px;
+        #totalMoney{
+          display: block;
+          margin-top: 10px;
+          font-size: 18px;
+          color: $color-main-denmoc;
+        }
+      }
+    }
+    .payment{
+      margin-top: 15px;
+      background-color: #f4f4f4;
+      margin-bottom: 10px;
+      .payment-dialog {
+        background: $color-main-denmoc;
+        box-sizing: border-box;
+        border: 10px solid $color-main-denmoc;
+        border-radius: 5px;
+        h3{
+          background: url(https://anvui.vn/themes/interbusline/image/bus-icon.png) no-repeat left center;
+          background-size: 30px;
+          padding-left: 45px;
+          font-size: 18px;
+          line-height: 40px;
+          color: #fff;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .payment-form {
+          padding: 10px 0 10px 10px;
+          background: #fff;
+          height: inherit;
+        }
+      }
+      .radio label {
+        padding-top: 5px;
+        padding-left: 30px;
+        margin-bottom: 10px;
+      }
+      #hoanthanhbtn {
+        text-align: center;
+        background: $color-main-denmoc;
+        border: 1px solid $color-main-denmoc;
+        padding: 10px 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: none;
+        margin-top: 20px;
+      }
+    }
+  }
+  #checkPromotion {
+  text-align: center;
+        background: $color-main-denmoc;
+        border: 1px solid $color-main-denmoc;
+        padding: 5px 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: none;
+        margin-left: 20px;
+  }
+}
